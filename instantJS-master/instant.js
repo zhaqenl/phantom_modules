@@ -19,9 +19,9 @@ page.open(oldHTML, function() {
 	        newScriptElement = document.createElement("script");
 
 	    // set attributes of new script element
-	    newScriptElement.setAttribute("src", "//instant.page/1.1.0");
+	    newScriptElement.setAttribute("src", "//instant.page/1.2.1");
 	    newScriptElement.setAttribute("type", "module");
-	    newScriptElement.setAttribute("integrity", "sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp");
+	    newScriptElement.setAttribute("integrity", "sha384-/IkE5iZAM/RxPto8B0nvKlMzIyCWtYocF01PbGGp1qElJuxv9J4whdWBRtzZltWn");
 
 	    // append new script element to body element
             bodyElement.appendChild(newScriptElement);
